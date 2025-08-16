@@ -12,4 +12,5 @@ The site features a modern **dark-glow theme** with smooth hover effects, respon
 - 📱 Mobile-first responsive design
 
 📸 Screenshot
-<img width="1920" height="1080" alt="p3 th" src="https://github.com/user-attachments/assets/59aaeb9d-a576-4b6f-85a8-8c1bb8134c87" />
+<img width="1920" height="1080" alt="p3 th" src="https://github.com/user-attachments/assets/ba69af47-9093-40d8-a4fa-0a5e5fcfb6f7" />
+
