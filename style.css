@@ -212,12 +212,10 @@ nav a:hover {
     gap: 2rem;
     padding: 2rem;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+    border-radius: 50px;
     border: 2px solid transparent;
     box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
     max-width: 1000px;
-    perspective: 1000px;
 }
 
 .content:hover {
@@ -245,7 +243,6 @@ nav a:hover {
     color: white;
     flex: 1;
     min-width: 250px;
-    animation: fadeInRight 1s ease forwards;
 }
 
 .right h2 {
@@ -259,20 +256,14 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-@keyframes fadeInRight {
-    from { opacity: 0; transform: translateX(30px); }
-    to { opacity: 1; transform: translateX(0); }
-}
-
 #skills {
   padding: 80px 20px;
-  background: #000;
+  background: #0a0a0a;
   color: #f1f5f9;
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
-  border-radius: 16px;
-  box-shadow: 0 0 25px rgba(56, 158, 248, 0.6);
-  max-width: 1200px;
+  border-radius: 50px;
+  max-width: 1100px;
   margin: 60px auto;
 }
 
@@ -393,7 +384,10 @@ nav a:hover {
   background: #0a0a0a;
   text-align: center;
   color: #fff;
-  box-shadow: 0 8px 25px #8bb4fa;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+  max-width: 1400px;
+  margin: 60px auto;
+  border-radius: 50px;
 }
 
 .projects h2 {
@@ -477,13 +471,11 @@ nav a:hover {
 }
 
 .project-card .btn {
-  display: inline-block;
   padding: 10px 20px;
   background: linear-gradient(135deg, #8bb4fa, #6d9ef5); 
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
   transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
 }
 
 .project-card .btn:hover {
@@ -497,7 +489,15 @@ nav a:hover {
   text-align: center;
   color: #fff;
   font-family: Arial, sans-serif;
-   box-shadow: 0 8px 25px #8bb4fa;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+  border-radius: 50px;
+  max-width: 1250px;
+  margin: 60px auto;
+}
+
+.contact-section:hover{
+  border-color: #00ccff;
+  box-shadow: 0 0 20px #8bb4fa, 0 0 40px #8bb4fa;
 }
 
 .contact-section h2 {
@@ -554,13 +554,18 @@ nav a:hover {
   justify-self: center;
   width: 90%;
   margin: 2vw 16vw;
-  background: rgba(0, 0, 0, 0.758);
+  background: #0a0a0a;
   border-radius: 50px;
   padding: 15px 0;
   text-align: center;
   backdrop-filter: blur(10px);
-  box-shadow: 0 -2px 20px rgba(88, 100, 114, 0.5);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
   overflow: hidden;
+}
+
+.footer:hover{
+  border-color: #00ccff;
+  box-shadow: 0 0 20px #8bb4fa, 0 0 40px #8bb4fa;
 }
 
 .footer-nav {
@@ -594,7 +599,6 @@ nav a:hover {
   font-size: 14px;
   color: #aaa;
 }
-
 
 @media (max-width: 800px) {
     .hide-logo { display: none; }
