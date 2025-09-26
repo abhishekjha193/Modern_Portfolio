@@ -438,23 +438,6 @@ nav a:hover {
   display: block;
 }
 
-.play-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #8bb4fa;
-  font-size: 3rem;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-}
-
 .video-wrapper.playing .play-overlay {
   opacity: 0;
 }
